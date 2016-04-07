@@ -1,0 +1,134 @@
+body, document, html {
+  padding: 0;
+  margin: 0;
+  background-color: #00C7A6;
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+  display: block;
+  font-family: "roboto", san-serif; }
+
+html {
+  height: 100%;
+  font-size: 10px; }
+
+main {
+  position: relative;
+  height: 100%;
+  font-size: 2.5em;
+  margin-top: 100px; }
+
+#wrapper {
+  width: 1034px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#button-position {
+  position: relative;
+  width: 1034px; }
+  #button-position #btn {
+    position: absolute;
+    background-color: #C78B00;
+    color: #fff;
+    width: 206px;
+    height: 70px;
+    right: 0;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    border-radius: 0 6px 6px 0; }
+    #button-position #btn span {
+      position: absolute;
+      top: 25%;
+      right: 20%; }
+  #button-position #quote-content {
+    height: 100%;
+    width: 788px;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #008B74;
+    opacity: 0.25;
+    border-radius: 6px 0 0 0; }
+
+#quote-author {
+  position: absolute;
+  right: 206px;
+  padding: 20px;
+  border-radius: 0 0 6px 6px;
+  background-color: #fff;
+  color: #008B74;
+  opacity: 0.25;
+  font-size: 0.75em; }
+
+#tweet-button {
+  position: absolute;
+  color: #FFF;
+  background-color: #C78B00;
+  padding: 10px;
+  font-size: 0.75em;
+  text-decoration: none;
+  border-radius: 0 0 6px 6px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5em;
+  border-top: 1px solid #C78B00;
+  padding: 20px; }
+  footer a {
+    text-decoration: none;
+    color: #C78B00; }
+
+@media (max-width: 700px) {
+  main {
+    height: 500px; }
+
+  #wrapper {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #button-position {
+    width: 500px; }
+    #button-position #quote-content {
+      width: 500px;
+      border-radius: 6px 6px 6px 0; }
+    #button-position #quote-author {
+      right: 0; }
+    #button-position #btn {
+      top: 250px;
+      right: 146px;
+      border-radius: 6px;
+      height: 75px; }
+
+  footer {
+    position: relative; } }
+@media (max-width: 500px) {
+  main {
+    height: 500px; }
+
+  #wrapper {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #button-position {
+    width: 250px; }
+    #button-position #quote-content {
+      width: 250px;
+      border-radius: 6px 6px 0 0;
+      max-height: 190px; }
+    #button-position #quote-author {
+      right: -40px;
+      width: 179px; }
+    #button-position #btn {
+      top: 290px;
+      right: 0;
+      border-radius: 6px;
+      height: 75px; }
+
+  footer {
+    position: relative; } }
+
+/*# sourceMappingURL=style.css.map */
