@@ -1,2 +1,2 @@
 # QuoteMachine
-Random Quote Machine built for Free Code Camp
+Quote Generator built for Free Code Camp
